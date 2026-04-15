@@ -34,7 +34,18 @@ console.log(myDogAge)
 ## Reassignment and Increment:
 
 - With the `let` statement, you can reasign different values to a variable 
-- 
+- `<button id="increment-btn" onclick="increment()"> ` - use the `onclick` as way to activate a certain function from the script.js. 
+
+## Functions: 
+```js
+function increment(){
+    console.log("This button was clicked")
+}
+```
+- increment is the name of the function
+- Functions are use to write less code, to make it easy for humans to read
+- Anything within the scope like variables, you can't call outside of it, only within the scope of the function. 
+- Any variables stated outside of the function is considered global, because you can access it anywhere
 
 
 
