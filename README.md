@@ -46,7 +46,10 @@ function increment(){
 - Functions are use to write less code, to make it easy for humans to read
 - Anything within the scope like variables, you can't call outside of it, only within the scope of the function. 
 - Any variables stated outside of the function is considered global, because you can access it anywhere
+- naming convention: camelCase, (first word small case, second word starts with capital letter)
 
+## Displaying the count:
+- `let count = document.getElementId("count-el")` = hey html document could you get me an element with an ID of count-el?
 
 
 
