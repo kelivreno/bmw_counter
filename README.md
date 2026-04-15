@@ -4,7 +4,7 @@ Install the dependencies and run the project
 npm install
 npm start
 ```
-# Things I learned while building this: 
+# Things I learned while building this (personal notes): 
 
 ## Variables:
 - `let count = 0` = (in english terms) let count be zero.
@@ -30,6 +30,11 @@ let myDogAge = myAge*humanDogRatio
 // 3. Log myDogAge to the console
 console.log(myDogAge)
 ```
+
+## Reassignment and Increment:
+
+- With the `let` statement, you can reasign different values to a variable 
+- 
 
 
 
