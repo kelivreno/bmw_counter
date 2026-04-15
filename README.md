@@ -57,3 +57,9 @@ function increment(){
 - Document: Interacting with the HTML document
 - Object: the Document keyword in JS is of the data type object; they took the HTML document and shoved it into a JS Object
 - Model: is how you represent that html into JS
+
+## Strings: 
+- You cannot have a string with both one quote or double quotes, ex: `let username = 'per"`. 
+- As much as possible, you make something complicated into a variable, so that's it's not messy in the `console.log()`
+- If a number is met with a string, it will automatically become a string, as string always wins. ex: `console.log(4+"5")` it will output 45, instead of 9
+- Concatenate trick: `welcomeEl.innerText += "👋"`, to add stuff to the end your string
