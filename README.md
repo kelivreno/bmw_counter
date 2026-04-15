@@ -49,8 +49,11 @@ function increment(){
 - naming convention: camelCase, (first word small case, second word starts with capital letter)
 
 ## Displaying the count:
-- `let countEl = document.getElementId("count-el")` = hey HTML document could you get me an element with an ID of count-el?
+- `let countEl = document.getElementById("count-el")` = hey HTML document could you get me an element with an ID of count-el?
 - represent the value from the html to countEl, so that we can add it. 
 
-
-
+## Document Object Model (DOM):
+- how you use JS to modify a website
+- Document: Interacting with the HTML document
+- Object: the Document keyword in JS is of the data type object; they took the HTML document and shoved it into a JS Object
+- Model: is how you represent that html into JS
