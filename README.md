@@ -49,7 +49,8 @@ function increment(){
 - naming convention: camelCase, (first word small case, second word starts with capital letter)
 
 ## Displaying the count:
-- `let count = document.getElementId("count-el")` = hey html document could you get me an element with an ID of count-el?
+- `let countEl = document.getElementId("count-el")` = hey HTML document could you get me an element with an ID of count-el?
+- represent the value from the html to countEl, so that we can add it. 
 
 
 
