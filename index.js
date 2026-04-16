@@ -17,7 +17,8 @@ function increment() {
 
 function save(){
     let track = count + " - "
-    saveEl.innerText += " " + track
+    // saveEl.innerText += " " + track
+    saveEl.textContent += track
     count = 0
     countEl.innerText = count
     console.log(count)
