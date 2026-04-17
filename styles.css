@@ -1,9 +1,12 @@
 body {
-    background-image: url("station.jpg");
-    background-size: cover;
+    background-image: url("bmw.webp");
+    background-repeat:repeat;
     font-family:  'Courier New', Courier, monospace;
     font-weight: bold;
-    text-align: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -29,14 +32,21 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #003f88;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #fdc500;
 }
 
-#wholeThing {
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7ecef;
+    border: 1px solid #8b8c89;
+    border-radius: 10%;
     max-width: 300px;
     margin: 0 auto;
+    padding: 10px 10px;
 }
