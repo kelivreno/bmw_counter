@@ -4,6 +4,9 @@ Install the dependencies and run the project
 npm install
 npm start
 ```
+or
+
+Visit the [Live Demo](https://bmwcounter.netlify.app/)
 # Things I learned while building this (personal notes): 
 
 ## Variables:
