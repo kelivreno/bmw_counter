@@ -6,12 +6,7 @@ npm start
 ```
 or
 
-Visit the [Live Demo](https://kelivreno.github.io/bmw_counter/)
-
-# Features:
-- Able to increment each count you clicked
-- Save previous entries (though it will vanish once you refresh the page)
-
+Visit the [Live Demo](https://bmwcounter.netlify.app/)
 # Things I learned while building this (personal notes): 
 
 ## Variables:
@@ -71,3 +66,6 @@ function increment(){
 - As much as possible, you make something complicated into a variable, so that's it's not messy in the `console.log()`
 - If a number is met with a string, it will automatically become a string, as string always wins. ex: `console.log(4+"5")` it will output 45, instead of 9
 - Concatenate trick: `welcomeEl.innerText += "👋"`, to add stuff to the end your string
+
+## Misc:
+- The `<script src="script.js"></script>` needs to be at the bottom, so that the js file can scan the whole document
