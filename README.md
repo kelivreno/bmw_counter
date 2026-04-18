@@ -6,7 +6,7 @@ npm start
 ```
 or
 
-Visit the [Live Demo](https://kelivreno.github.io/passenger_counter/)
+Visit the [Live Demo](https://kelivreno.github.io/bmw_counter/)
 
 # Features:
 - Able to increment each count you clicked
