@@ -6,7 +6,12 @@ npm start
 ```
 or
 
-Visit the [Live Demo](https://bmwcounter.netlify.app/)
+Visit the [Live Demo](https://kelivreno.github.io/passenger_counter/)
+
+# Features:
+- Able to increment each count you clicked
+- Save previous entries (though it will vanish once you refresh the page)
+
 # Things I learned while building this (personal notes): 
 
 ## Variables:
